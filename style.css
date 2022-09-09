@@ -1,0 +1,142 @@
+.home-menu{
+    background-image:url('./image/OmniPage/hero.jpg ') ;
+   background-size: cover;
+   height: 700px;
+}
+
+.button{border-radius: 1cm;
+width: 200px;
+height: 40px;
+border-color: gold;
+color: gold;
+background: transparent;
+
+
+}
+.button:hover{background-color: gold;
+color: azure;}
+*{margin: 0; padding: 0}
+body{
+    background-color: rgb(161, 159, 159); 
+    background-size: cover;
+    background-position-y: -100px;
+}
+#wrapper{
+    padding-bottom: 2%;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+#logo{
+    padding-right: 50%;
+    color: aliceblue;
+    
+}
+#logo img{
+    max-width: 50px;
+    height: auto;
+    position: relative;
+    left: 200px;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 500px;
+}
+#main-menu li{
+    position: relative;
+   
+}
+#main-menu li a{
+    color:aliceblue;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #131921;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+}
+#main-menu ul.subi-menu{
+    position: absolute;
+    background-color: #131921;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+    left:200px;
+}
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #686565;
+}
+#main-menu ul.sub-menu li:hover a{
+    border-bottom: 1px solid #a2a0a0
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+li{
+    width: 110px;
+}
+.vanban{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+color: aliceblue;}
+.button-container{width: 500px;
+height: 300px;
+top: 500px;
+position: relative;
+
+left: 200px;}
+.blackground{position: absolute;
+    z-index: 2;background-color: black;
+    opacity: 0.7;
+width: 100%;
+height: 100%;}
+#wrapper{position: absolute;z-index: 3;}
+#template{background-image:url('image/OmniPage/part2.png') ;
+background-size: cover;
+height: 700px;
+}
+#part-png{background-image:url('image/OmniPage/part4.png');
+background-size: cover;
+height: 700px;}
+#text-to-city{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 100;
+
+text-align: center;}
+#currently-cities{background-color: aliceblue;
+    
+    justify-content: center;
+    flex-direction: row;}
+.image-current{width: 200px;
+height: 130px;
+}
+.image-frame{ 
+    display: flex;
+    justify-content:space-between;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.line{height: 1px;
+width: 20px;
+border-color: orange;
+border-style: solid;
+border-width: 40px;
+}
+
