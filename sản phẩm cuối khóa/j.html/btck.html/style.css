@@ -1,0 +1,140 @@
+
+#danbau{
+width: 300px;
+height:250px ;}
+#muc1{
+   border: 1px white solid;
+   width: 305px;
+   
+   background-color:brown;
+}
+#chu{ text-align: center;}
+#danda{
+    width: 300px;
+    height:250px ;}
+
+#muc2{
+    border: 1px white solid;
+    width: 305px;
+    
+    background-color:brown; 
+}
+.nam{
+    display: inline-block;
+    
+    margin:30px;
+   
+
+}
+#muc3{
+    border: 1px white solid;
+    width: 305px;
+    
+    background-color:brown; 
+}
+#chuu{ text-align: center;}
+#chuuu{ text-align: center;}
+#saotruc{
+    width: 300px;
+    height:250px ;}
+    #dannguyet{ width: 300px;
+        height:250px ;}
+        #muc4{
+            border: 1px white solid;
+            width: 305px;
+            
+            background-color:brown; }
+            #chuuuu{ text-align: center;}
+            #chuuuuu{ text-align: center;}
+            #muc5{
+                border: 1px white solid;
+                width: 305px;
+                background-color:brown; }
+                #congchieng{ width: 300px;
+                    height:250px ;}
+                    #chuuuuuu{ text-align: center;}
+                    #muc6{
+                        border: 1px white solid;
+                        width: 305px;
+                        background-color:brown; }
+                        #tamthapluc{ width: 300px;
+                            height:250px ;}
+                            #nhaccu{
+                                text-align: center;
+                            }
+                            a{
+                                color: aliceblue;
+                                text-decoration: none;
+                            }
+                            *{margin: 0; padding: 0}
+body{
+    background-color: rgb(161, 159, 159); 
+    background-size: cover;
+    background-position-y: -100px;
+}
+#wrapper{
+    padding-bottom: 2%;
+}
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+#header{
+    background-color: #131921;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+#logo{
+    padding-right: 50%;
+}
+#logo img{
+    max-width: 100px;
+    height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a{
+    color:aliceblue;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #131921;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+}
+#main-menu ul.subi-menu{
+    position: absolute;
+    background-color: #131921;
+    padding: 15px 15px;
+    list-style: none;
+    width: 200px;
+    left:200px;
+}
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #686565;
+}
+#main-menu ul.sub-menu li:hover a{
+    border-bottom: 1px solid #a2a0a0
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+li{
+    width: 110px;
+}

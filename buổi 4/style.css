@@ -1,0 +1,12 @@
+a:hover {
+    background: darkgreen;
+    color: #fff;
+}
+.clock{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    border-style: solid;
+    color: aliceblue;
+
+}
