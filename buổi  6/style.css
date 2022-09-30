@@ -1,0 +1,66 @@
+
+.rectangle{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 200px;
+    height:150px;
+    font-size: 30px;
+    display: inline-block;
+    margin:auto;
+}
+
+.apple_click{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    font-size: 45px;
+    outline: auto;
+    outline-color: black;
+    outline-width: 20px;
+}
+    .rectangle{
+        border-style: solid;
+        border-width: thin;
+        border-color: black;
+        width: 200px;
+        height:150px;
+        font-size: 30px;
+        display: inline-block;
+        margin:auto;
+        outline-width: 20px;
+
+}
+.melon_click{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    font-size: 45px;
+    outline: auto;
+    outline-color: black;
+    outline-width: 20px;
+
+}
+.mango_click{
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 250px;
+    height: 60px;
+    font-size: 45px;
+    outline: auto;
+    outline-color: black;
+    outline-width: 20px;
+
+}
+.bigtext{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    width: 200px;
+    height:150px;
+    font-size: 30px;
+    display: inline-block;
+    margin:auto;
+}
