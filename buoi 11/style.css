@@ -12,7 +12,8 @@ body {
     width: 500px;
     padding: 16px;
     margin: 0 auto;
-    background-color: white;
+    background-color:black;
+    
     }
     input[type=text], input[type=password] {
     width: 100%;
@@ -60,6 +61,7 @@ body {
         opacity: 0.9;  
         border-radius: 50px;
         font-size: larger;
+        
     }
     #submitfacebook.hover{
         opacity: 1;
