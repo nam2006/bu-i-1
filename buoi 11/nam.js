@@ -1,21 +1,44 @@
 function validate() {
     var u = document.getElementById("username").value;
     var p1 = document.getElementById("password").value;
-    var p2 = document.getElementById("password-repeat").value;
-     var button = document.getElementById
+
     if(u== "") {
+        alert("vui lòng nhập tài khoản")
+    return false;}
+    else if(u=="dangnhapspotify"){
+       
+        
+     
+    }
+    else{
+        alert("thông tin không chính xác")
+        return false;
+    }
   
-    }
+    
     if(p1 == "") {
-    alert("");
+    alert("vui lòng nhập mật khẩu");
     return false;
     }
-    if(p2 == "") {
-    alert("Vui lòng xác minh mật khẩu!");
-    return false;
+    else if(p1=="123456789"){
+        window.location=""
+        alert("thông tin chính xác!")
+        
+        return true;
+        
+        }
+        else{
+            alert("thông tin không chính xác")
+        }
+        return false;
+       
     }
+
+    
+  
+
+    
      
-    alert("Xin hãy điền đúng thông tin!")
-     
-    return true;
-    }
+
+  
+  
